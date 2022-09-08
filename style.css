@@ -1,0 +1,65 @@
+body{
+    background: #4d267f;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+.herois{
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 100%;
+    align-items: center;
+}
+.heroy{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px 20px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroy img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    margin: auto;
+    max-width: 300px;
+    max-height: 400px;
+}
+.heroy :hover{
+    color: peachpuff;
+    transition: .5s;
+    scale: 1.2;
+}
+.heroy span{
+    display: flex;
+    padding: 5px 10px;
+}
+.hide{
+    display: inline-block;
+    display: none;
+}
+.button-block{
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.button{
+    margin: 10px 20px 10px 20px;
+    font-size: 30px;
+    color: purple;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 20px;
+}
